@@ -1,1 +1,31 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  type="text/css" rel="stylesheet" href="style.css">
+    <title>Weather_App</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>Weather</h1>
+    </div>
+    <div class="search-bar">
+        <input type="text" id="city" name="city">
+        <button type="button" id="search-btn">🔍</button>
+    </div>
+    <h1 id="error" style="color: red; font-size: 5rem; text-align: center;"></h1>
+    <h1 id="userDesc" style="color: blue; font-size: 2rem; text-align: center;">Enter the City Name to see the weather details</h1>
+    <div class="weather-details" style="display: none;">
+        <h2 id="city-name"></h2>
+        <hr>
+        <p id="city-climate"></p>
+        <p id="city-temp"></p>
+        <p id="city-mintemp"></p>
+        <p id="city-maxtemp"></p>
+        <p id="city-windspeed"></p>
+        <p id="city-humidity"></p>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
